@@ -17,7 +17,7 @@ Os dados estão disponíveis no seguinte link:
 import pandas as pd
 
 # Carregar os dados
-df = pd.read_csv('data/log_dados_fotovoltaicos.csv')
+df = pd.read_csv('log_dados_fotovoltaicos.csv')
 
 # Exibir as primeiras linhas
 print(df.head())
